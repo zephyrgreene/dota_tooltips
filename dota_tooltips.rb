@@ -34,6 +34,6 @@ File.open(original, "rb:UTF-16LE").each_line do |line|
 	end
 end
 	
-final_string = original_string.tr('}','') + "// Start Custom Text\n" + custom_string + "// End Custom Text\n" + "\t}\n}\n"
+final_string = original_string.gsub("\t}\n}\n", "") + "// Start Custom Text\n" + custom_string + "// End Custom Text\n" + "\n\t}\n}\n"
 
 File.write(original, final_string, {encoding: 'UTF-16LE', mode: 'wt'})
