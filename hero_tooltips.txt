@@ -2,9 +2,9 @@
 		
 	// PUDGE
 	
-		"DOTA_Tooltip_ability_pudge_meat_hook"											"<font color=\"#FF4F4F\">Meat Hook</font>"
-		"DOTA_Tooltip_ability_pudge_meat_hook_Description"								"Launches a chained hook at target location.<br>The hook will snag the first unit it hits, dragging it back to the hook's starting location.<br>If the target hooked is an enemy, it takes damage on impact and is stunned for the drag duration.<br><br><font color=\"#0000FF\">UPGRADEABLE: </font>Aghanim's Scepter"
-		"DOTA_Tooltip_ability_pudge_meat_hook_Note0"									"Meat Hook can go through trees, cliffs, and buildings."
+		"DOTA_Tooltip_ability_pudge_meat_hook"											"<font color=\"#DE8930\">Meat Hook</font>"
+		"DOTA_Tooltip_ability_pudge_meat_hook_Description"								"Launches a chained hook at target location.<br>The hook will snag the first unit it hits, dragging it back to the hook's starting location.<br>If the target is an enemy, it takes damage on impact and is stunned for the drag duration.<br><br>UPGRADEABLE: <font color=\"#0000FF\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_pudge_meat_hook_Note0"									"Meat Hook can go through terrain."
 		"DOTA_Tooltip_ability_pudge_meat_hook_Note1"									"<br>Can Target?<br>BKB: Yes, but stun is blocked.<br>Invisible: Yes."
 		"DOTA_Tooltip_ability_pudge_meat_hook_Note2"									"Runes: Yes, refunds mana."
 		"DOTA_Tooltip_ability_pudge_meat_hook_Note3"									"Ancient Creeps: No.\nRoshan: No."
@@ -13,18 +13,18 @@
 		"DOTA_Tooltip_ability_pudge_rot_Description"									"Releases a toxic cloud that damages and slows nearby enemy units. The damage is also dealt to Pudge.<br><br>Does not interrupt your channeled spells."
 		"DOTA_Tooltip_ability_pudge_rot_Note0"											"Can Target?\n\nBKB: No, Blocks all effects.\nInvisible: Yes.\nLethal: Can deny yourself."
 		"DOTA_Tooltip_ability_pudge_rot_Note1"											"BKB: No, Blocks all effects.\nInvisible: Yes."
-		"DOTA_Tooltip_ability_pudge_rot_Note2"											"Lethal: Can deny yourself."
-		"DOTA_Tooltip_ability_pudge_rot_Note3"											"If Pudge is silenced, he can't toggle Rot on or off."
+		"DOTA_Tooltip_ability_pudge_rot_Note2"											"Lethal: Can be used to deny yourself."
+		"DOTA_Tooltip_ability_pudge_rot_Note3"											"If Pudge is silenced, Rot cannot be toggled on or off."
 
 		"DOTA_Tooltip_ability_pudge_flesh_heap"											"<font color=\"#eed1b0\">Flesh Heap</font>"
 		"DOTA_Tooltip_ability_pudge_flesh_heap_Description"								"Whenever Pudge kills an enemy hero or a nearby enemy hero dies, Flesh Heap gains a stack. Stacks of Flesh Heap are retroactive, granting the current level bonus once the skill is learned.<br><br>Grants resistance to magical damage."
 		"DOTA_Tooltip_ability_pudge_flesh_heap_Note0"									"Stacks multiplicatively with other sources of magic resistance."
-		"DOTA_Tooltip_ability_pudge_flesh_heap_Note1"									"Deny: Grants a charge on denied enemy heroes.\nKill Distance: 1600 max range"
+		"DOTA_Tooltip_ability_pudge_flesh_heap_Note1"									"Kill Distance: 1600 max range"
 
 		"DOTA_Tooltip_ability_pudge_dismember"											"<font color=\"#E34F4F\">Dismember</font>"
 		"DOTA_Tooltip_ability_pudge_dismember_Description"								"CHANNELED - Devours an enemy unit, stunning and damaging it while healing Pudge.\nSound is global and audible to enemies."
-		"DOTA_Tooltip_ability_pudge_dismember_Note0"									"Can Target?\n\nBKB: Yes, but deals no damage.\nLinkens: Blocks entire spell."
-		"DOTA_Tooltip_ability_pudge_dismember_Note1"									"Invisible: Yes, grants truesight."
+		"DOTA_Tooltip_ability_pudge_dismember_Note0"									"Heal is independent of damage dealt."
+		"DOTA_Tooltip_ability_pudge_dismember_Note1"									"Can Target?\nBKB: Yes, but deals no damage.\nLinkens: Blocks entire spell."
 		"DOTA_Tooltip_ability_pudge_dismember_dismember_damage"							"DAMAGE/HEAL PER SECOND:"
 		
 	//PHANTOM ASSASSIN
@@ -47,7 +47,7 @@
 	//MIRANA
 		
 		"DOTA_Tooltip_ability_mirana_starfall"											"Starstorm"
-		"DOTA_Tooltip_ability_mirana_starfall_Description"								"Radiant stars fall near Mirana dealing damage to nearby enemy units. The closest enemy unit  will be struck a second time for 75%% reduced damage.\nMAX DAMAGE: 131 / 262 / 394 / 525<br>SECONDARY RADIUS: %starfall_secondary_radius%\n<font color=\"#0000FF\">UPGRADEABLE: </font>Aghanim's Scepter"
+		"DOTA_Tooltip_ability_mirana_starfall_Description"								"Radiant stars fall near Mirana dealing damage to nearby enemy units. The closest enemy unit  will be struck a second time for 75%% reduced damage.\nMAX DAMAGE: 131 / 262 / 394 / 525<br>SECONDARY RADIUS: %starfall_secondary_radius%\nUPGRADEABLE: <font color=\"#0000FF\">Aghanim's Scepter</font>"
 		"DOTA_Tooltip_ability_mirana_starfall_Note0"									"Can Target?\nBKB: No.\nLinkens: Not Blocked.\nInvisible: No."
 		"DOTA_Tooltip_ability_mirana_starfall_Note1"									""
 		"DOTA_Tooltip_ability_mirana_starfall_Note2"									"The second star will recast if the original target died before impact."
@@ -57,7 +57,7 @@
 		
 		"DOTA_Tooltip_ability_mirana_arrow"												"Sacred Arrow"
 		"DOTA_Tooltip_ability_mirana_arrow_Description"									"Fires a long-range arrow that stuns and damages the first enemy unit it strikes, dealing increased damage and stun duration based on the distance the arrow travels. Instantly kills the first non-ancient creep it hits.\nGrants flying vision.\nMAX DAMAGE: 190 / 280 / 370 / 460"
-		"DOTA_Tooltip_ability_mirana_arrow_Note0"										"Can Target?\nBKB: No.\nLinkens: Not Blocked\nInvisible: Yes."
+		"DOTA_Tooltip_ability_mirana_arrow_Note0"										"Sacred Arrow ignores Terrain.\n\nCan Target?\nBKB: No.\nLinkens: Not Blocked\nInvisible: Yes."
 		"DOTA_Tooltip_ability_mirana_arrow_Note1"										"The arrow reaches its full potential at 1500 distance."
 		"DOTA_Tooltip_ability_mirana_arrow_arrow_range"									"RANGE:"
 		"DOTA_Tooltip_ability_mirana_arrow_arrow_min_stun"								"MINIMUM STUN:"
@@ -124,14 +124,15 @@
 	//OGRE MAGI
 	
 		"DOTA_Tooltip_ability_ogre_magi_fireblast"									"<font color=\"#EEF10D\">Fireblast</font>"
-		"DOTA_Tooltip_ability_ogre_magi_fireblast_Description"						"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target.\nMULTICAST INTERVAL: 0.5"
+		"DOTA_Tooltip_ability_ogre_magi_fireblast_Description"						"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target.<br><br>MULTICAST INTERVAL: %multicast_delay%"
 		"DOTA_Tooltip_ability_ogre_magi_fireblast_Note0"							""
 		"DOTA_Tooltip_ability_ogre_magi_fireblast_Note1"							""
 		"DOTA_Tooltip_ability_ogre_magi_fireblast_stun_duration"					"STUN DURATION:"
 		"DOTA_Tooltip_ability_ogre_magi_fireblast_fireblast_damage"					"FIREBLAST DAMAGE:"
 		
 		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast"						"<font color=\"#0099FF\">Unrefined Fireblast</font>"
-		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast_Description"			"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target.<br><br>It always costs 60%% of Ogre Magi's current mana.<br><br>Granted by <font color=\"#0000E3\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast_Description"			"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target.<br>Always costs 60%% of current mana.<br><br>MULTICAST INTERVAL: %multicast_delay%<br><br>Granted by <font color=\"#0000E3\">Aghanim's Scepter.</font>"
+		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast_Note0"					"Can be cast even at 0 mana."
 		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast_stun_duration"			"STUN DURATION:"
 		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast_fireblast_damage"		"FIREBLAST DAMAGE:"
 		
@@ -156,6 +157,7 @@
 		
 		"DOTA_Tooltip_ability_ogre_magi_multicast"									"<font color=\"#F9FF9E\">Multicast</font>"
 		"DOTA_Tooltip_ability_ogre_magi_multicast_Description"						"Enables Ogre Magi a chance to cast his spells multiple times with each use, while also granting his spells greater potency:\n<font color=\"#EEF10D\">Fireblast</font> has its cooldown decreased, and it may cast multiple times against the same enemy when used.\n<font color=\"#0099FF\">Unrefined Fireblast</font><br>It may it may cast multiple times against the same enemy when used.<br>Requires <font color=\"#0000E3\">Aghanim's Scepter.</font>\n<font color=\"#DE8930\">Ignite</font> hits enemies in an area around the initial target, its range is increased, and it may cast multiple times onto random nearby enemies when used.\n<font color=\"#E34F4F\">Bloodlust</font> has its cooldown reduced, and it may cast multiple times on random nearby allies when used."
+		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_Note0"					"Each chance to multicast is independent.<br>The highest multiplier is prioritized."
 		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_2_times_tooltip"		"%2X CAST CHANCE:"
 		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_3_times_tooltip"		"%3X CAST CHANCE:"
 		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_4_times_tooltip"		"%4X CAST CHANCE:"
