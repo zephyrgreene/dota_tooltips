@@ -1,24 +1,23 @@
-
 	// Hero Tooltips
 		
 	// PUDGE
 	
-		"DOTA_Tooltip_ability_pudge_meat_hook"											"<font color=\"#a2a29a\">Meat Hook</font>"
-		"DOTA_Tooltip_ability_pudge_meat_hook_Description"								"Launches a chained hook at target location. The hook will snag the first unit it hits, dragging it back to the hook's starting location. If the target hooked is an enemy, it takes damage on impact and is stunned for the drag duration.\n\n<font color=\"#0000FF\">UPGRADEABLE: </font>Aghanim's Scepter"
-		"DOTA_Tooltip_ability_pudge_meat_hook_Note0"									"Meat Hook can go through trees, cliffs and buildings."
-		"DOTA_Tooltip_ability_pudge_meat_hook_Note1"									"\nCan Target?\nBKB: Yes, but stun is blocked.\nInvisible: Yes."
+		"DOTA_Tooltip_ability_pudge_meat_hook"											"<font color=\"#FF4F4F\">Meat Hook</font>"
+		"DOTA_Tooltip_ability_pudge_meat_hook_Description"								"Launches a chained hook at target location.<br>The hook will snag the first unit it hits, dragging it back to the hook's starting location.<br>If the target hooked is an enemy, it takes damage on impact and is stunned for the drag duration.<br><br><font color=\"#0000FF\">UPGRADEABLE: </font>Aghanim's Scepter"
+		"DOTA_Tooltip_ability_pudge_meat_hook_Note0"									"Meat Hook can go through trees, cliffs, and buildings."
+		"DOTA_Tooltip_ability_pudge_meat_hook_Note1"									"<br>Can Target?<br>BKB: Yes, but stun is blocked.<br>Invisible: Yes."
 		"DOTA_Tooltip_ability_pudge_meat_hook_Note2"									"Runes: Yes, refunds mana."
 		"DOTA_Tooltip_ability_pudge_meat_hook_Note3"									"Ancient Creeps: No.\nRoshan: No."
 		
 		"DOTA_Tooltip_ability_pudge_rot"												"<font color=\"#A3C00F\">Rot</font>"
-		"DOTA_Tooltip_ability_pudge_rot_Description"									"Releases a toxic cloud that damages and slows nearby enemy units. The damage is also dealt to Pudge.\n\nDoes not interrupt your channeled spells."
+		"DOTA_Tooltip_ability_pudge_rot_Description"									"Releases a toxic cloud that damages and slows nearby enemy units. The damage is also dealt to Pudge.<br><br>Does not interrupt your channeled spells."
 		"DOTA_Tooltip_ability_pudge_rot_Note0"											"Can Target?\n\nBKB: No, Blocks all effects.\nInvisible: Yes.\nLethal: Can deny yourself."
 		"DOTA_Tooltip_ability_pudge_rot_Note1"											"BKB: No, Blocks all effects.\nInvisible: Yes."
 		"DOTA_Tooltip_ability_pudge_rot_Note2"											"Lethal: Can deny yourself."
 		"DOTA_Tooltip_ability_pudge_rot_Note3"											"If Pudge is silenced, he can't toggle Rot on or off."
 
 		"DOTA_Tooltip_ability_pudge_flesh_heap"											"<font color=\"#eed1b0\">Flesh Heap</font>"
-		"DOTA_Tooltip_ability_pudge_flesh_heap_Description"								"Whenever Pudge kills an enemy hero or a nearby enemy hero dies, it gains a charge. Charges of Flesh Heap are retroactive, granting bonuses once the skill is learned.\nGrants resistance to magical damage."
+		"DOTA_Tooltip_ability_pudge_flesh_heap_Description"								"Whenever Pudge kills an enemy hero or a nearby enemy hero dies, Flesh Heap gains a stack. Stacks of Flesh Heap are retroactive, granting the current level bonus once the skill is learned.<br><br>Grants resistance to magical damage."
 		"DOTA_Tooltip_ability_pudge_flesh_heap_Note0"									"Stacks multiplicatively with other sources of magic resistance."
 		"DOTA_Tooltip_ability_pudge_flesh_heap_Note1"									"Deny: Grants a charge on denied enemy heroes.\nKill Distance: 1600 max range"
 
@@ -125,30 +124,29 @@
 	//OGRE MAGI
 	
 		"DOTA_Tooltip_ability_ogre_magi_fireblast"									"<font color=\"#EEF10D\">Fireblast</font>"
-		"DOTA_Tooltip_ability_ogre_magi_fireblast_Description"						"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target."
-		"DOTA_Tooltip_ability_ogre_magi_fireblast_Note0"							"When Multicast, Fireblast hits the same target each time with a 0.3 seconds interval."
+		"DOTA_Tooltip_ability_ogre_magi_fireblast_Description"						"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target.\nMULTICAST INTERVAL: 0.5"
+		"DOTA_Tooltip_ability_ogre_magi_fireblast_Note0"							""
 		"DOTA_Tooltip_ability_ogre_magi_fireblast_Note1"							""
 		"DOTA_Tooltip_ability_ogre_magi_fireblast_stun_duration"					"STUN DURATION:"
 		"DOTA_Tooltip_ability_ogre_magi_fireblast_fireblast_damage"					"FIREBLAST DAMAGE:"
 		
 		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast"						"<font color=\"#0099FF\">Unrefined Fireblast</font>"
-		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast_Description"			"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target. Its mana cost is 60%% of Ogre Magi's current mana.<br><br>Granted by <font color=\"#0000E3\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast_Description"			"Blasts an enemy unit with a wave of fire, dealing damage and stunning the target.<br><br>It always costs 60%% of Ogre Magi's current mana.<br><br>Granted by <font color=\"#0000E3\">Aghanim's Scepter</font>"
 		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast_stun_duration"			"STUN DURATION:"
-		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast_fireblast_damage"					"FIREBLAST DAMAGE:"
+		"DOTA_Tooltip_ability_ogre_magi_unrefined_fireblast_fireblast_damage"		"FIREBLAST DAMAGE:"
 		
 		"DOTA_Tooltip_ability_ogre_magi_ignite"										"<font color=\"#DE8930\">Ignite</font>"
-		"DOTA_Tooltip_ability_ogre_magi_ignite_Description"							"Drenches a target in volatile chemicals, causing it to burst into flames. The target is in immense pain, taking damage and moving more slowly."
-		"DOTA_Tooltip_ability_ogre_magi_ignite_Lore"								"Batter up!"
-		"DOTA_Tooltip_ability_ogre_magi_ignite_Note0"								"Multicast makes this spell have an area of effect (150/300/450 based on Multicast level)."
-		"DOTA_Tooltip_ability_ogre_magi_ignite_Note1"								"Multicast makes this spell have 150 additional cast range for every Multicast level."
-		"DOTA_Tooltip_ability_ogre_magi_ignite_Note2"								"Multicast makes this spell have a chance to cast multiple times at random enemy units with 1400 area of effect."
+		"DOTA_Tooltip_ability_ogre_magi_ignite_Description"							"Drenches a target in flaming oils, causing enemy to take damage over time and move slower."
+		"DOTA_Tooltip_ability_ogre_magi_ignite_Note0"								"Multicast makes this spell has an area of effect."
+		"DOTA_Tooltip_ability_ogre_magi_ignite_Note1"								"Multicast makes this spell has additional cast range for every Multicast level."
+		"DOTA_Tooltip_ability_ogre_magi_ignite_Note2"								"When multicast this spell can hit enemy units up to 1400 range away."
 		"DOTA_Tooltip_ability_ogre_magi_ignite_burn_damage"							"BURN DAMAGE:"
 		"DOTA_Tooltip_ability_ogre_magi_ignite_duration"							"DURATION:"
 		"DOTA_Tooltip_ability_ogre_magi_ignite_slow_movement_speed_pct"				"%SLOW:"
 		
 		"DOTA_Tooltip_ability_ogre_magi_bloodlust"									"<font color=\"#E34F4F\">Bloodlust</font>"
-		"DOTA_Tooltip_ability_ogre_magi_bloodlust_Description"						"Incites a frenzy in a friendly unit, increasing its movement speed and attack speed. Can be cast on towers."
-		"DOTA_Tooltip_ability_ogre_magi_bloodlust_Note0"							"When multicast, nearby allies will be selected randomly in an 575 area of effect to receive Bloodlust."
+		"DOTA_Tooltip_ability_ogre_magi_bloodlust_Description"						"Incites a friendly unit into a frenzy, increasing its attack and movement speeds.<br><br>Can be cast on structures."
+		"DOTA_Tooltip_ability_ogre_magi_bloodlust_Note0"							"When multicast, this spell can affect nearby allies in an 575 range."
 		"DOTA_Tooltip_ability_ogre_magi_bloodlust_Note1"							"Can be cast on Spell Immune allies."
 		"DOTA_Tooltip_ability_ogre_magi_bloodlust_Note2"							""
 		"DOTA_Tooltip_ability_ogre_magi_bloodlust_duration"							"DURATION:"
@@ -157,8 +155,7 @@
 		"DOTA_Tooltip_ability_ogre_magi_bloodlust_self_bonus"						"SELF BONUS ATTACK SPEED:"
 		
 		"DOTA_Tooltip_ability_ogre_magi_multicast"									"<font color=\"#F9FF9E\">Multicast</font>"
-		"DOTA_Tooltip_ability_ogre_magi_multicast_Description"						"Enables Ogre Magi a chance to cast his spells multiple times with each use, while also granting his spells greater potency:\n<font color=\"#EEF10D\">Fireblast</font> has its cooldown decreased, and it may multi-cast against the same enemy when used.\n<font color=\"#0099FF\">Unrefined Fireblast</font><br>Granted by <font color=\"#0000E3\">Aghanim's Scepter</font>.<br>It may multi-cast against the same enemy when used.\n<font color=\"#DE8930\">Ignite</font> hits enemies in an area, its range is increased, and it may multi-cast onto random nearby enemies when used.\n<font color=\"#E34F4F\">Bloodlust</font> has its cooldown reduced, and it may multi-cast on random nearby allies when used."
-		"DOTA_Tooltip_ability_ogre_magi_multicast_Lore"								"Despite being largely incapacitated by his IQ, the Ogre Magi's success in battle is attributed to pure skill."
+		"DOTA_Tooltip_ability_ogre_magi_multicast_Description"						"Enables Ogre Magi a chance to cast his spells multiple times with each use, while also granting his spells greater potency:\n<font color=\"#EEF10D\">Fireblast</font> has its cooldown decreased, and it may cast multiple times against the same enemy when used.\n<font color=\"#0099FF\">Unrefined Fireblast</font><br>It may it may cast multiple times against the same enemy when used.<br>Requires <font color=\"#0000E3\">Aghanim's Scepter.</font>\n<font color=\"#DE8930\">Ignite</font> hits enemies in an area around the initial target, its range is increased, and it may cast multiple times onto random nearby enemies when used.\n<font color=\"#E34F4F\">Bloodlust</font> has its cooldown reduced, and it may cast multiple times on random nearby allies when used."
 		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_2_times_tooltip"		"%2X CAST CHANCE:"
 		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_3_times_tooltip"		"%3X CAST CHANCE:"
 		"DOTA_Tooltip_ability_ogre_magi_multicast_multicast_4_times_tooltip"		"%4X CAST CHANCE:"
