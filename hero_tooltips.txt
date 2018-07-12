@@ -1,3 +1,5 @@
+		
+		
 	// Hero Tooltips
 		
 		
@@ -36,10 +38,10 @@
 		"DOTA_Tooltip_ability_phantom_assassin_stifling_dagger_Description"				"<font color=\"#F9FF9E\">TRUESTRIKE</font> - Throws a dagger that attacks an enemy unit and slows its movement speed.\nThe dagger applies on-hit effects as melee and grants flying vision."
 		"DOTA_Tooltip_ability_phantom_assassin_stifling_dagger_Note0"					"Can Target?\nBKB: Yes, Deals damage but doesn't slow.\nEthereal: Yes, slow applies and some on-hit effects.\nLinkens: Blocked if primary target."
 
-		"DOTA_Tooltip_ability_phantom_assassin_phantom_strike_Description"				"<font color=\"#167C13\">MOBLILITY</font> - Teleports to a unit. Grants temporary attack speed against an enemy target."
+		"DOTA_Tooltip_ability_phantom_assassin_phantom_strike_Description"				"<font color=\"#167C13\">MOBILITY</font> - Teleports to a unit. Grants temporary attack speed against an enemy target."
 		"DOTA_Tooltip_ability_phantom_assassin_phantom_strike_Note0"					"The attack speed bonus lasts either 4 seconds or for 4 successful attacks, whichever is shorter.\nMissed attacks do not count against the attack limit.\nThe attack speed bonus is lost instantly upon successfully attacking a different target."
 
-		"DOTA_Tooltip_ability_phantom_assassin_blur_Description"						"Grants evasion to attacks.\nWhile no heroes are near, Phantom Assassin is hidden from the minimap."
+		"DOTA_Tooltip_ability_phantom_assassin_blur_Description"						"Grants evasion from enemy attacks.\nWhile no heroes are near, Phantom Assassin is hidden from the minimap."
 		"DOTA_Tooltip_ability_phantom_assassin_blur_Note0"								"Stacks multiplicatively with other sources of Evasion."
 		"DOTA_Tooltip_ability_phantom_assassin_blur_bonus_evasion"						"%EVASION:"
 		"DOTA_Tooltip_ability_phantom_assassin_blur_radius"								"MAP VANISH RADIUS:"
@@ -71,7 +73,7 @@
 		"DOTA_Tooltip_ability_mirana_arrow_arrow_bonus_damage"							"MAXIMUM BONUS DAMAGE:"
 
 		"DOTA_Tooltip_ability_mirana_leap"												"Leap"
-		"DOTA_Tooltip_ability_mirana_leap_Description"									"<font color=\"#167C13\">MOBLILITY</font> - Mirana's pet leaps forward with a ferocious roar that grants bonus attack and movement speed.\nAlways leaps forwards.\nSPEED DURATION: %leap_bonus_duration% seconds."
+		"DOTA_Tooltip_ability_mirana_leap_Description"									"<font color=\"#167C13\">MOBILITY</font> - Mirana's pet leaps forward with a ferocious roar that grants bonus attack and movement speed.\nAlways leaps forwards.\nSPEED DURATION: %leap_bonus_duration% seconds."
 		"DOTA_Tooltip_ability_mirana_leap_Note0"										"Speed duration applies instantly and not upon landing.\nMirana can turn, attack, and use items while leaping."
 		"DOTA_Tooltip_ability_mirana_leap_leap_distance"								"DISTANCE:"
 		"DOTA_Tooltip_ability_mirana_leap_leap_speedbonus"								"%MOVEMENT BONUS:"
@@ -93,7 +95,7 @@
 
 	
 		"DOTA_Tooltip_ability_spirit_breaker_charge_of_darkness"					"Charge of Darkness"
-		"DOTA_Tooltip_ability_spirit_breaker_charge_of_darkness_Description"		"<font color=\"#167C13\">MOBLILITY</font> - Spirit Breaker fixes his sight on an enemy unit and starts charging unhindered by terrain.  All enemy units passed through and the targeted unit will be hit by Greater Bash."
+		"DOTA_Tooltip_ability_spirit_breaker_charge_of_darkness_Description"		"<font color=\"#167C13\">MOBILITY</font> - Spirit Breaker fixes his sight on an enemy unit and starts charging unhindered by terrain.  All enemy units passed through and the targeted unit will be hit by Greater Bash."
 		"DOTA_Tooltip_ability_spirit_breaker_charge_of_darkness_Note0"				"If the targeted unit dies, the charge will change targets to the nearest enemy unit in 4000 range.\nThe charge indicator is visible only to allies.\nMovement from this ability is Forced Movement and does not change Spirit Breaker's movement speed."
 		"DOTA_Tooltip_ability_spirit_breaker_charge_of_darkness_Note1"				"Spirit Breaker gains shared vision of the target."
 		"DOTA_Tooltip_ability_spirit_breaker_charge_of_darkness_Note2"				"Can Target?\nLinkens: Blocked if primary target."
@@ -181,7 +183,7 @@
 	
 	
 		"DOTA_Tooltip_ability_earthshaker_fissure"										"Fissure"
-		"DOTA_Tooltip_ability_earthshaker_fissure_Description"							"Slams the ground with a mighty totem, creating an impassable ridge of stone while stunning and damaging enemy units along its line."
+		"DOTA_Tooltip_ability_earthshaker_fissure_Description"							"Earthshaker slams the ground, creating an impassible wall of stone. Enemies hit by the fissure are stunned and damaged."
 		"DOTA_Tooltip_ability_earthshaker_fissure_fissure_range"						"FISSURE RANGE:"		
 		"DOTA_Tooltip_ability_earthshaker_fissure_fissure_duration"						"FISSURE DURATION:"
 		"DOTA_Tooltip_ability_earthshaker_fissure_stun_duration"						"STUN DURATION:"								
@@ -189,24 +191,24 @@
 		"DOTA_Tooltip_ability_earthshaker_fissure_Note1"								"Fissure is not blocked by Linken's Sphere."
 		
 		"DOTA_Tooltip_ability_earthshaker_enchant_totem"								"Enchant Totem"
-		"DOTA_Tooltip_ability_earthshaker_enchant_totem_Description"					"<font color=\"#F9FF9E\">TRUESTRIKE</font> - Empowers Earthshaker's totem, causing it to deal extra damage on the next attack.<br><br>UPGRADEABLE: <font color=\"#0000FF\">Aghanim's Scepter</font>"
-		"DOTA_Tooltip_ability_earthshaker_enchant_totem_Note0"							"Percent bonus damage is based on primary attribute."
-		"DOTA_Tooltip_ability_earthshaker_enchant_totem_Note1"							"Self-cast with Scepter will make it behave like the non-Scepter form, without jumping."
+		"DOTA_Tooltip_ability_earthshaker_enchant_totem_Description"					"<font color=\"#F9FF9E\">TRUESTRIKE</font> - Empowers Earthshaker's totem, causing his next attack to deal massive bonus damage.<br><br>UPGRADEABLE: <font color=\"#0000FF\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_earthshaker_enchant_totem_Note0"							"Percent damage bonus is based on primary attribute."
+		"DOTA_Tooltip_ability_earthshaker_enchant_totem_Note1"							"Self-cast with Scepter will make the spell occur without jumping."
 		"DOTA_Tooltip_ability_earthshaker_enchant_totem_Note2"							""
 		"DOTA_Tooltip_ability_earthshaker_enchant_totem_totem_damage_percentage"		"%BONUS:"
 		"DOTA_Tooltip_ability_earthshaker_enchant_totem_tooltip_duration"				"DURATION:"
 		"DOTA_Tooltip_ability_earthshaker_enchant_totem_distance_scepter"				"SCEPTER JUMP DISTANCE:"
-		"DOTA_Tooltip_ability_earthshaker_enchant_totem_aghanim_description"			"Enchant Totem becomes a 900 range ground target ability, causing Earthshaker to jump in the air and land at the target spot, casting Enchant Totem there.<br><br>Self-cast with Scepter will make it behave like the non-Scepter form, without jumping."
+		"DOTA_Tooltip_ability_earthshaker_enchant_totem_aghanim_description"			"Enchant Totem gains the ability to leap 900 range, activating the spell cast where he lands.<br><br>Self-cast with Scepter will make the spell occur without jumping."
 		
 		"DOTA_Tooltip_ability_earthshaker_aftershock"									"Aftershock"
-		"DOTA_Tooltip_ability_earthshaker_aftershock_Description"						"Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities."
-		"DOTA_Tooltip_ability_earthshaker_aftershock_Lore"								"The earth trembles beneath the mighty footsteps of Raigor."
+		"DOTA_Tooltip_ability_earthshaker_aftershock_Description"						"Causes the earth to shake underfoot when Earthshaker uses hero abilities, stunning and damaging nearby enemy units."
 		"DOTA_Tooltip_ability_earthshaker_aftershock_Note0"								"Using items does not trigger Aftershock."
 		"DOTA_Tooltip_ability_earthshaker_aftershock_aftershock_range"					"RADIUS:"
 		"DOTA_Tooltip_ability_earthshaker_aftershock_tooltip_duration"					"DURATION:"
 		
 		"DOTA_Tooltip_ability_earthshaker_echo_slam"									"Echo Slam"
-		"DOTA_Tooltip_ability_earthshaker_echo_slam_Description"						"Shockwaves travel through the ground, damaging enemy units.  Each enemy hit causes an echo to damage nearby units. Non-Illusion heroes cause two echoes."
+		"DOTA_Tooltip_ability_earthshaker_echo_slam_Description"						"Shockwaves travel through the ground, damaging enemy units. Each enemy hit causes an echo to damage nearby units. Non-Illusion heroes cause two echoes."
+		"DOTA_Tooltip_ability_earthshaker_echo_slam_echo_slam_Note0"					"Can Target?\nInvisible: Yes.
 		"DOTA_Tooltip_ability_earthshaker_echo_slam_echo_slam_echo_damage"				"ECHO DAMAGE:"
 		"DOTA_Tooltip_ability_earthshaker_echo_slam_echo_slam_damage_range"				"RADIUS:"
 		"DOTA_Tooltip_ability_earthshaker_echo_slam_echo_slam_initial_damage"			"INITIAL DAMAGE:"
