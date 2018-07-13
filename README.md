@@ -10,7 +10,7 @@ Experimenting with colored skill names, some heroes have limited color pallettes
 
 Pudge and Ogre Magi have colored skill names for right now.
 
-Keywords and Colors
+<h3>Keywords and Colors/h3>
 
 Aghanim's Scepter is now colored Blue whenever it is mentioned, and is mentioned slightly more often to help the player notice who has a Scepter upgrade
 
@@ -22,7 +22,7 @@ TRUESTRIKE is a new keyword colored pale-yellow #F9FF9E to draw attention to the
 
 TRUESIGHT is a new keyword colored bright green #00FF00 to draw attention to the spell's strength over invisibility.
 
-Consistencies with word usage.
+<h3>Consistencies with word usage/h3>
 
 With the given amount of information in any hero's kit, text, and item choices, there should be a focus in consistent word usage. 
 I will be creating a sort of Dota 2 - Dictionary as I progress through this tooltip mod, based on word usage from Valve and the Dota 2 Wikia pages.
@@ -33,7 +33,9 @@ Spell: Anything that is not an attack, is exclusively a spell including items. (
 
 Ability: Any Spell granted to a hero by their skill points. (E.g. Zeus and Earthshaker activate their passives from using their abilities)
 
-Other standardizations would be to feature a guiding light to word usage, as this mod isn't limited to in-game knowledge it could be used as a quick to view guide to the framework of how things work. Overall, this should be simple and limited, but for many Alt-Texts I have a "Can Target?" list to help with complex interactions of spells.
+<h3>Other standardizations/h3>
+
+This would be to feature a guiding light to word usage, as this mod isn't limited to in-game knowledge it could be used as a quick to view guide to the framework of how things work. Overall, this should be simple and limited, but for many Alt-Texts I currently have a "Can Target?" list to help with complex interactions of certain spells.
 
 Examples:
 
