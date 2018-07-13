@@ -32,7 +32,7 @@
 		"DOTA_Tooltip_ability_pudge_dismember_dismember_damage"							"DAMAGE/HEAL PER SECOND:"
 		
 		
-	//PHANTOM ASSASSIN
+	// PHANTOM ASSASSIN
 	
 	
 		"DOTA_Tooltip_ability_phantom_assassin_stifling_dagger_Description"				"<font color=\"#F9FF9E\">TRUESTRIKE</font> - Throws a dagger that attacks an enemy unit and slows its movement speed.\nThe dagger applies on-hit effects as melee and grants flying vision."
@@ -51,7 +51,7 @@
 		"DOTA_Tooltip_ability_phantom_assassin_coup_de_grace_Note0"					"Stacks multiplicatively with other sources of critical strike.\nCritical strikes are prioritized by highest damage multiplier."
 	
 	
-	//MIRANA
+	// MIRANA
 		
 		
 		"DOTA_Tooltip_ability_mirana_starfall"											"Starstorm"
@@ -91,7 +91,7 @@
 		"DOTA_Tooltip_ability_mirana_invis_bonus_movement_speed"						"%MOVEMENT SPEED:"
 		
 		
-	//SPIRIT BREAKER
+	// SPIRIT BREAKER
 
 	
 		"DOTA_Tooltip_ability_spirit_breaker_charge_of_darkness"					"Charge of Darkness"
@@ -131,7 +131,7 @@
 		"DOTA_Tooltip_ability_spirit_breaker_nether_strike_aghanim_description"		"Causes the Greater Bash to hit an area around the initial target, decreases cooldown, and increases cast range."
 		
 		
-	//OGRE MAGI
+	// OGRE MAGI
 	
 	
 		"DOTA_Tooltip_ability_ogre_magi_fireblast"									"<font color=\"#EEF10D\">Fireblast</font>"
@@ -179,7 +179,7 @@
 		"DOTA_Tooltip_ability_ogre_magi_multicast_bloodlust_cooldown"				"BLOODLUST COOLDOWN REDUCTION:"
 		
 		
-	//EARTHSHAKER
+	// EARTHSHAKER
 	
 	
 		"DOTA_Tooltip_ability_earthshaker_fissure"										"Fissure"
@@ -213,4 +213,42 @@
 		"DOTA_Tooltip_ability_earthshaker_echo_slam_echo_slam_damage_range"				"RADIUS:"
 		"DOTA_Tooltip_ability_earthshaker_echo_slam_echo_slam_initial_damage"			"INITIAL DAMAGE:"
 		
+		
+	// ZEUS
+		
+		
+		"DOTA_Tooltip_ability_zuus_arc_lightning"										"Arc Lightning"
+		"DOTA_Tooltip_ability_zuus_arc_lightning_Description"							"A bouncing bolt of lightning that chains through multiple enemy units.\nJump Distance: %radius%"
+		"DOTA_Tooltip_ability_zuus_arc_lightning_jump_count"							"JUMPS:"
+		"DOTA_Tooltip_ability_zuus_arc_lightning_arc_damage"							"DAMAGE:"
+		
+		"DOTA_Tooltip_ability_zuus_lightning_bolt"										"Lightning Bolt"
+		"DOTA_Tooltip_ability_zuus_lightning_bolt_Description"							"<font color=\"#00FF00\">TRUESIGHT</font> - Calls a bolt of lightning down from the sky to strike an enemy unit or the ground, damaging and mini-stunning the unit.<br>When used on the ground, the spell will search for a nearby enemy hero.<br><br>Provides flying vision.<br><br>Sight Radius: %true_sight_radius%<br>Hero Search Radius: %spread_aoe%<br><br>Lightning Bolt is used by <font color=\"#0000E3\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_zuus_lightning_bolt_cast_range_tooltip"					"CAST RANGE:"
+		"DOTA_Tooltip_ability_zuus_lightning_bolt_sight_radius_day"						"SIGHT RADIUS:"
+		"DOTA_Tooltip_ability_zuus_lightning_bolt_sight_duration"						"SIGHT DURATION:"
+		"DOTA_Tooltip_ability_zuus_lightning_bolt_Note0"								"The mini-stun interrupts enemy animations and channeling spells.\nVision is always granted even if the spell is blocked."
+		
+		"DOTA_Tooltip_ability_zuus_static_field"										"Static Field"
+		"DOTA_Tooltip_ability_zuus_static_field_Description"							"Shocks all nearby enemies when using a hero ability, dealing a portion of current health.<br><br>Damage from this spell is calculated before other ability damage."
+		"DOTA_Tooltip_ability_zuus_static_field_Note0"									"The damage from Static Field is dealt before the damage from the used spell."
+		"DOTA_Tooltip_ability_zuus_static_field_Note1"									"Using items doesn't trigger Static Field."
+		"DOTA_Tooltip_ability_zuus_static_field_Note2"									"Does not require unit visibility to take effect."
+		"DOTA_Tooltip_ability_zuus_static_field_damage_health_pct"						"%HEALTH REDUCTION:"
+		"DOTA_Tooltip_ability_zuus_static_field_radius"									"RANGE:"
+				
+		"DOTA_Tooltip_ability_zuus_cloud"                                               "Nimbus"
+		"DOTA_Tooltip_ability_zuus_cloud_Description"                                   "Creates a storm cloud anywhere on the map that casts Lightning Bolt on the nearest enemy unit.<br><br>Attacks to Destroy<br>Melee Heroes: 4<br>Ranged Heroes: 8<br>Non-Heroes: 16<br><br>Granted by <font color=\"#0000E3\">Aghanim's Scepter.</font>"
+		"DOTA_Tooltip_ability_zuus_cloud_cloud_duration"                                "DURATION:"
+		"DOTA_Tooltip_ability_zuus_cloud_cloud_bolt_interval"                           "LIGHTNING BOLT BASE COOLDOWN:"
+		"DOTA_Tooltip_ability_zuus_cloud_Note0"											"Nimbus is a ward-unit that is hit based to be destroyed.<br>Grants 100 gold bounty."
+		"DOTA_Tooltip_ability_zuus_cloud_Note1"											"Cooldown reduction affects the Lightning Bolt frequency."
+		
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath"									"Thundergod's Wrath"
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_Description"						"<font color=\"#00FF00\">TRUESIGHT</font> - Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location."
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_damage"							"DAMAGE:"
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_true_sight_radius_tooltip"			"TRUE SIGHT RADIUS:"
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_sight_duration"					"DURATION:"
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_aghanim_description"				"Grants a new ability, creating a cloud that casts Lightning Bolt on nearby enemies."
+
 		

@@ -4,7 +4,7 @@ WIP
 Works to heavily simplify descriptions and pull data away from being inside them.
 Includes customized colors for some skills and a blue highlight for aghanims upgrade text.
 
-Colored Skills
+<h3>Colored Skills</h3>
 
 Experimenting with colored skill names, some heroes have limited color pallettes between skills (Mirana) while others have an easier time being multi-color (Ogre Magi)
 
@@ -19,6 +19,8 @@ CHANNELED is now colored Intelligence-Blue #257DAE to draw attention to the spel
 MOBILITY is a new keyword colored Agility-Green #167C13 to draw attention to the spell's weakness to roots.
 
 TRUESTRIKE is a new keyword colored pale-yellow #F9FF9E to draw attention to the spell's strength over evasion.
+
+TRUESIGHT is a new keyword colored bright green #00FF00 to draw attention to the spell's strength over invisibility.
 
 Consistencies with word usage.
 
