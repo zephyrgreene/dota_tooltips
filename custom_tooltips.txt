@@ -7,12 +7,11 @@
 	
 	
 		"DOTA_Tooltip_ability_pudge_meat_hook"									"<font color=\"#DE8930\">Meat Hook</font>"
-		"DOTA_Tooltip_ability_pudge_meat_hook_Description"								"Launches a chained hook at a target location.<br>The hook stuns and drags the first unit it hits, pulling it to the hook's starting location.<br><br>Does not stun or damage allied units.<br><br>UPGRADEABLE: <font color=\"#0000FF\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_pudge_meat_hook_Description"								"Launches a chained hook at a target location which stuns and drags the first unit it hits, pulling it to the hook's starting location.<br><br>Does not stun or damage allied units.<br><br>UPGRADEABLE: <font color=\"#0000FF\">Aghanim's Scepter</font>"
 		"DOTA_Tooltip_ability_pudge_meat_hook_Note0"									"Meat Hook can go through terrain."
 		"DOTA_Tooltip_ability_pudge_meat_hook_Note1"									"<br>Can Target?<br>BKB: Yes, but stun is blocked."
 		"DOTA_Tooltip_ability_pudge_meat_hook_Note2"									"Invisible: Yes."
-		"DOTA_Tooltip_ability_pudge_meat_hook_Note3"									"Runes: Yes, also refunds mana."
-		
+		"DOTA_Tooltip_ability_pudge_meat_hook_Note3"									"Runes: Yes, also refunds mana."		
 		"DOTA_Tooltip_ability_pudge_rot"										"<font color=\"#A3C00F\">Rot</font>"
 		"DOTA_Tooltip_ability_pudge_rot_Description"									"Releases a toxic cloud that damages and slows nearby enemy units.<br><br>Rot deals full damage to Pudge and disables some items.<br><br>Does not interrupt your channeled spells."
 		"DOTA_Tooltip_ability_pudge_rot_Note0"									"If Pudge is silenced, Rot cannot be toggled on or off.\nCan Target?"
