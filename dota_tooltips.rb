@@ -23,9 +23,7 @@ File.open(original, "rb:UTF-16LE").each_line do |line|
 		custom_block = true
 	end
 	
-	if custom_block
-		# do nothing
-	else
+	if !custom_block
 		original_string << line.encode("UTF-8").chomp + "\n"
 	end	
 	
