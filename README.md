@@ -12,7 +12,7 @@ Pudge and Ogre Magi have colored skill names for right now.
 
 <h3>Keywords and Colors</h3>
 
-Aghanim's Scepter is now colored Blue whenever it is mentioned, and is mentioned slightly more often to help the player notice who has a Scepter upgrade
+Aghanim's Scepter is now colored scepter-Blue #0000E3 whenever it is mentioned, and is mentioned slightly more often to help the player notice who has a Scepter upgrade
 
 CHANNELED is now colored Intelligence-Blue #257DAE to draw attention to the spell's weakness to interrupts/mini-stuns.
 

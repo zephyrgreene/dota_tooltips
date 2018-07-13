@@ -223,11 +223,11 @@
 		"DOTA_Tooltip_ability_zuus_arc_lightning_arc_damage"							"DAMAGE:"
 		
 		"DOTA_Tooltip_ability_zuus_lightning_bolt"										"Lightning Bolt"
-		"DOTA_Tooltip_ability_zuus_lightning_bolt_Description"							"<font color=\"#00FF00\">TRUESIGHT</font> - Calls a bolt of lightning down from the sky to strike an enemy unit or the ground, damaging and mini-stunning the unit.<br>When used on the ground, the spell will search for a nearby enemy hero.<br><br>Provides flying vision.<br><br>Sight Radius: %true_sight_radius%<br>Hero Search Radius: %spread_aoe%<br><br>Lightning Bolt is used by <font color=\"#0000E3\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_zuus_lightning_bolt_Description"							"<font color=\"#00FF00\">TRUESIGHT</font> - Calls a bolt of lightning down from the sky to strike an enemy unit or the ground, damaging and mini-stunning the unit.<br>When used on the ground, the spell will search for a nearby enemy hero.<br><br>Grants flying vision.<br><br>Sight Radius: %true_sight_radius%<br>Hero Search Radius: %spread_aoe%<br><br>Lightning Bolt is used by <font color=\"#0000E3\">Aghanim's Scepter</font>"
 		"DOTA_Tooltip_ability_zuus_lightning_bolt_cast_range_tooltip"					"CAST RANGE:"
 		"DOTA_Tooltip_ability_zuus_lightning_bolt_sight_radius_day"						"SIGHT RADIUS:"
 		"DOTA_Tooltip_ability_zuus_lightning_bolt_sight_duration"						"SIGHT DURATION:"
-		"DOTA_Tooltip_ability_zuus_lightning_bolt_Note0"								"The mini-stun interrupts enemy animations and channeling spells.\nVision is always granted even if the spell is blocked."
+		"DOTA_Tooltip_ability_zuus_lightning_bolt_Note0"								"The mini-stun interrupts enemy animations and channeling spells.\nVision is always granted over the target."
 		
 		"DOTA_Tooltip_ability_zuus_static_field"										"Static Field"
 		"DOTA_Tooltip_ability_zuus_static_field_Description"							"Shocks all nearby enemies when using a hero ability, dealing a portion of current health.<br><br>Damage from this spell is calculated before other ability damage."
@@ -245,10 +245,10 @@
 		"DOTA_Tooltip_ability_zuus_cloud_Note1"											"Cooldown reduction affects the Lightning Bolt frequency."
 		
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath"									"Thundergod's Wrath"
-		"DOTA_Tooltip_ability_zuus_thundergods_wrath_Description"						"<font color=\"#00FF00\">TRUESIGHT</font> - Strikes all enemy heroes with a bolt of lightning, no matter where they may be.  Thundergod's Wrath also provides True Sight around each hero struck.  If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location."
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_Description"						"<font color=\"#00FF00\">TRUESIGHT</font> - Strikes all enemy heroes with a bolt of lightning, no matter where they may be. Does not hit invisible heroes.<br><br>Grants flying vision."
+		DOTA_Tooltip_ability_zuus_thundergods_wrath_Note0"								"Vision is always granted over the target."
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_damage"							"DAMAGE:"
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_true_sight_radius_tooltip"			"TRUE SIGHT RADIUS:"
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_sight_duration"					"DURATION:"
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_aghanim_description"				"Grants a new ability, creating a cloud that casts Lightning Bolt on nearby enemies."
 
-		
