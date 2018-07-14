@@ -1,4 +1,4 @@
-To set this mod up all you need to do is clone the project and extract:
+To set this mod up all you need to do is download or clone the project and extract:
 
 custom_tooltips.txt
 dota_tooltips.rb
