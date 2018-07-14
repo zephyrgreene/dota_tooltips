@@ -5,7 +5,7 @@ dota_tooltips.rb
 
 into your Dota 2 folder (Steam/steamapps/common/dota 2)
 
-Run the rb script (requires ruby installed)
+Run the rb script (requires ruby installed: https://www.ruby-lang.org/en/downloads/)
 This will update your dota_english.txt file (you can change this of course)
 
 However, every time Valve updates strings, you will need to run this again.
