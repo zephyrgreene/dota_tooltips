@@ -118,6 +118,8 @@
 		"npc_dota_hero_pangolier"		"Donte Panlin |Pangolier"
 		"npc_dota_hero_dark_willow"		"Mireska |Dark Willow"
 
+		
+		
 	// Hero Tooltips
 		
 		
@@ -340,7 +342,7 @@
 		"DOTA_Tooltip_ability_zuus_arc_lightning_arc_damage"							"DAMAGE:"
 		
 		"DOTA_Tooltip_ability_zuus_lightning_bolt"										"Lightning Bolt"
-		"DOTA_Tooltip_ability_zuus_lightning_bolt_Description"							"<font color=\"#00FF00\">TRUESIGHT</font> - Calls a bolt of lightning down from the sky to strike an enemy unit or the ground, damaging and mini-stunning the unit.<br>When used on the ground, the spell will search for a nearby enemy hero.<br><br>Grants flying vision.<br><br>Sight Radius: %true_sight_radius%<br>Hero Search Radius: %spread_aoe%<br><br>Lightning Bolt is used by <font color=\"#0000E3\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_zuus_lightning_bolt_Description"							"<font color=\"#00FF00\">TRUESIGHT</font> - Strike an enemy unit or the ground, damaging and mini-stunning the unit.<br>When used on the ground, the spell will search for a nearby enemy hero.<br><br>Grants flying vision.<br><br>Sight Radius: %true_sight_radius%<br>Hero Search Radius: %spread_aoe%<br><br>Lightning Bolt is used by <font color=\"#0000E3\">Aghanim's Scepter</font>"
 		"DOTA_Tooltip_ability_zuus_lightning_bolt_cast_range_tooltip"					"CAST RANGE:"
 		"DOTA_Tooltip_ability_zuus_lightning_bolt_sight_radius_day"						"SIGHT RADIUS:"
 		"DOTA_Tooltip_ability_zuus_lightning_bolt_sight_duration"						"SIGHT DURATION:"
@@ -362,10 +364,125 @@
 		"DOTA_Tooltip_ability_zuus_cloud_Note1"											"Cooldown reduction affects the Lightning Bolt frequency."
 		
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath"									"Thundergod's Wrath"
-		"DOTA_Tooltip_ability_zuus_thundergods_wrath_Description"						"<font color=\"#00FF00\">TRUESIGHT</font> - Strikes all enemy heroes with a bolt of lightning, no matter where they may be. Does not hit invisible heroes.<br><br>Grants flying vision."
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_Description"						"<font color=\"#00FF00\">TRUESIGHT</font> - Strikes all enemy heroes with a bolt of lightning, no matter where they may be.<br><br>Does not hit invisible heroes.<br><br>Grants flying vision."
 		DOTA_Tooltip_ability_zuus_thundergods_wrath_Note0"								"Vision is always granted over the target."
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_damage"							"DAMAGE:"
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_true_sight_radius_tooltip"			"TRUE SIGHT RADIUS:"
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_sight_duration"					"DURATION:"
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_aghanim_description"				"Grants a new ability, creating a cloud that casts Lightning Bolt on nearby enemies."
 
+		
+	//VENGEFUL SPIRIT
+		
+		
+		"DOTA_Tooltip_ability_vengefulspirit_magic_missile"								"Magic Missile"
+		"DOTA_Tooltip_ability_vengefulspirit_magic_missile_Description"					"Throw a magic missile that stuns and damages an enemy unit."
+		"DOTA_Tooltip_ability_vengefulspirit_magic_missile_Note0"						"Linkens: Fully Blocked.<br>Invisible: Fully affects enemies."
+		"DOTA_Tooltip_ability_vengefulspirit_magic_missile_magic_missile_stun"			"STUN DURATION:"
+		"DOTA_Tooltip_ability_vengefulspirit_magic_missile_magic_missile_damage"		"DAMAGE:"
+		
+		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror"							"Wave of Terror"
+		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror_Description"				"A scream that damages and reduces armor of enemies it passes through.<br><br>Grants <font color=\"#FFFFFF\">Flying Vision.</font>"
+		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror_armor_reduction"			"ARMOR REDUCTION:"
+		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror_tooltip_duration"			"DEBUFF DURATION:"
+		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror_vision_duration"			"VISION DURATION:"
+		
+		"DOTA_Tooltip_ability_vengefulspirit_command_aura"								"Vengeance Aura"
+		"DOTA_Tooltip_ability_vengefulspirit_command_aura_Description"					"Grants nearby allies bonus attack damage.<br><br>Allied heroes slain under the aura create an image which attacks their killer."
+		"DOTA_Tooltip_ability_vengefulspirit_command_aura_Note0"						"Images are illusions that are invulnerable, untargetable, and uncontrollable.\nImages only attack their source.\nBreak: Prevents the image from spawning."
+		"DOTA_Tooltip_ability_vengefulspirit_command_aura_Note1"						"\nPercent damage bonus is based on primary attribute."
+		"DOTA_Tooltip_ability_vengefulspirit_command_aura_bonus_damage_pct"				"%DAMAGE BONUS:"
+		"DOTA_Tooltip_ability_vengefulspirit_command_aura_aura_radius"					"RADIUS:"
+		"DOTA_Tooltip_ability_vengefulspirit_command_aura_images_do_damage_percent_tooltip"				"%IMAGE DAMAGE:"
+		"DOTA_Tooltip_ability_vengefulspirit_command_aura_illusion_duration"			"IMAGE DURATION:"
+		
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap"								"Nether Swap"
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_Description"					"Instantly swaps positions with any hero.\nNether Swap interrupts channeling abilities on the target.\n\nUPGRADEABLE: <font color=\"#0000FF\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_Note0"							"Break: Prevents the Scepter illusion from spawning."
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_Note1"							"Trees near the user and the target will be destroyed when the spell is cast."
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_Note2"							"Channeling spells are interrupted whether ally or enemy."
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_tooltip_range"					"RANGE:"
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_nether_swap_cooldown_scepter"	"SCEPTER COOLDOWN:"
+		
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_aghanim_description"			"Decreases Nether Swap's cooldown and allows it to target regular units.\nSpawns an special illusion upon death that can use hero abilities. The illusion lasts until the owner revives."
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_illusion_damage_out_pct_scepter" "%SCEPTER ILLUSION DAMAGE DEALT:"
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_illusion_damage_in_pct_scepter" "%SCEPTER ILLUSION DAMAGE TAKEN:"
+		
+		
+	// TERRORBLADE
+		
+		
+		"DOTA_Tooltip_ability_terrorblade_reflection"										"Reflection"
+		"DOTA_Tooltip_ability_terrorblade_reflection_Description"							"Summons an image of each nearby enemy hero that attacks and slows the source hero."
+		"DOTA_Tooltip_ability_terrorblade_reflection_illusion_duration"						"IMAGE DURATION:"
+		"DOTA_Tooltip_ability_terrorblade_reflection_illusion_outgoing_tooltip"				"%IMAGE DAMAGE:"
+		"DOTA_Tooltip_ability_terrorblade_reflection_move_slow"								"%MOVEMENT SLOW:"
+		"DOTA_Tooltip_ability_terrorblade_reflection_range"									"RADIUS:"
+		"DOTA_Tooltip_ability_terrorblade_reflection_Note0"									"Images are illusions that are invulnerable, untargetable, and uncontrollable."
+		"DOTA_Tooltip_ability_terrorblade_reflection_Note1"									"Images only attack their source."
+		
+		"DOTA_Tooltip_ability_terrorblade_conjure_image"									"Conjure Image"
+		"DOTA_Tooltip_ability_terrorblade_conjure_image_Description"						"Creates an illusion of Terrorblade that deals damage."
+		"DOTA_Tooltip_ability_terrorblade_conjure_image_Lore"								"There's only one thing more dangerous than facing Terrorblade.  Facing MORE Terrrorblades!"
+		"DOTA_Tooltip_ability_terrorblade_conjure_image_illusion_duration"					"ILLUSION DURATION:"
+		"DOTA_Tooltip_ability_terrorblade_conjure_image_illusion_outgoing_tooltip"			"%ILLUSION DAMAGE:"
+		"DOTA_Tooltip_ability_terrorblade_conjure_image_illusion_incoming_damage_total_tooltip"			"%ILLUSION DAMAGE TAKEN:"
+		
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis"									"Metamorphosis"
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_Description"						"Terrorblade transforms into a powerful demon with a ranged attack. Any of Terrorblade's illusions that are within %metamorph_aura_tooltip% range will also be transformed by Metamorphosis."
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_Lore"								"Temper, temper. The rage rises up and takes control.  Meet Terrorblade's own worst self."
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_duration"							"DURATION:"
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_transformation_time"				"TRANSFORMATION TIME:"
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_base_attack_time"					"BASE ATTACK TIME:"
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_tooltip_attack_range"				"ATTACK RANGE:"
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_bonus_damage"						"BONUS DAMAGE:"
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_speed_loss"							"MOVEMENT SPEED LOSS:"
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_metamorph_aura_tooltip"		"ILLUSION AURA RADIUS:"
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_Note0"							"Manta Style's cooldown time will be based on whether Terrorblade was in his ranged or melee form when the item was used."
+		"DOTA_Tooltip_ability_terrorblade_sunder"											"Sunder"
+		"DOTA_Tooltip_ability_terrorblade_sunder_Description"								"Severs the life from both Terrorblade and a target hero, exchanging a percentage of both units' current health. Some health points must remain."
+		"DOTA_Tooltip_ability_terrorblade_sunder_Lore"										"You didn't need that life, did you?  The demon marauder steals that which you hold most dear."
+		"DOTA_Tooltip_ability_terrorblade_sunder_hit_point_minimum_pct"						"%MINIMUM HP SWAP:"
+		
+		
+	//CRYSTAL MAIDEN
+	
+	
+		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova"								"Crystal Nova"
+		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_Description"					"A burst of damaging frost slows enemy movement and attack rate in the targeted area."
+		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_Lore"							"The air temperature around Rylai drops rapidly, chilling all around her to the core."
+		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_duration"						"DURATION:"
+		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_movespeed_slow"				"%MOVEMENT SLOW:"
+		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_attackspeed_slow"				"ATTACK SLOW:"
+		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_radius"						"RADIUS:"
+		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_nova_damage"					"DAMAGE:"
+		
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite"									"Frostbite"
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Description"						"Encases an enemy unit in ice, prohibiting movement and attack, while dealing %damage_per_second_tooltip% damage every half-second. Lasts 10 seconds on creeps level 6 or lower."
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Lore"							"Rylai channels winds from the Blueheart Glacier, imprisoning attackers in thick blocks of ice."
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Note0"							"Blink abilities cannot be used while under the affects of Frostbite."		
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_damage_per_second_tooltip"						"DAMAGE PER HALF-SECOND:"
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_duration"						"HERO DURATION:"
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_hero_damage_tooltip"						"HERO TOTAL DAMAGE:"		
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_creep_duration"					"CREEP DURATION:"	
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_creep_damage_tooltip"		"CREEP TOTAL DAMAGE:"
+		
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura"							"Arcane Aura"
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Description"				"Gives additional mana regeneration to all friendly units on the map. This bonus is increased for Crystal Maiden."
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Lore"						"Cold temperatures promote the essence of magic, causing Rylai's presence to allow spell usage in abundance."
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Note0"						"Stacks with other flat mana regeneration bonuses."
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Note1"						"The flat mana regeneration bonus is not considered for percentage mana regeneration increases."
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_mana_regen"				"ALLY MANA REGEN:"
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_mana_regen_self"		"SELF MANA REGEN:"
+		
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field"							"Freezing Field"
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Description"				"CHANNELED - Surrounds Crystal Maiden with random icy explosions that slow enemies and deal massive damage.  Lasts %duration_tooltip% seconds.\n\nUpgradable by Aghanim's Scepter."
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Lore"						"Once the place of her exile, Icewrack has become an anchor for Rylai's frigid onslaught."
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Note0"						"The slow is applied on all enemies in the radius, even if they aren't hit by an explosion (lasts 1 second)."
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Note1"						"Every 0.1 second an explosion occurs, for a total of 100 explosions."
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_movespeed_slow"				"%MOVEMENT SLOW:"
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_attack_slow"				"ATTACK SLOW:"
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_radius"						"RADIUS:"
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_explosion_radius"			"EXPLOSION RADIUS:"
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_damage"						"DAMAGE:"
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_aghanim_description"		"Applies Frostbite to any unit that has been standing in the Freezing Field for over 2.5 seconds."

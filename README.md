@@ -33,6 +33,12 @@ Spell: Anything that is not an attack, is exclusively a spell including items. (
 
 Ability: Any Spell granted to a hero by their skill points. (E.g. Zeus and Earthshaker activate their passives from using their abilities)
 
+Illusion: A mimick of a hero, can only attack. Often deals reduced damage and takes amplified damage. Many stats from items and heroes are limited or modified.
+
+Illusion-Image: Like an illusion but is invulnerable, untargetable, and uncontrollable. (Terrorblade, Vengeful)
+
+Clone: Like an illusion, but can cast spells or have modifiers restricted by normal illusions. (Monkey, Warden, Meepo)
+
 <h3>Other standardizations</h3>
 
 This would be to feature a guiding light to word usage, as this mod isn't limited to in-game knowledge it could be used as a quick to view guide to the framework of how things work. Overall, this should be simple and limited, but for many Alt-Texts I currently have a "Can Target?" list to help with complex interactions of certain spells.
