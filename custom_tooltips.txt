@@ -154,8 +154,8 @@
 	// PHANTOM ASSASSIN
 	
 	
-		"DOTA_Tooltip_ability_phantom_assassin_stifling_dagger_Description"				"<font color=\"#F9FF9E\">TRUESTRIKE</font> - Throws a dagger that triggers an attack against an enemy and slows its movement speed.\nApplies on-hit effects (melee).<br><br>Grants <font color=\"#FFFFFF\">Flying Vision.</font><br>SIGHT DURATION: 3"
-		"DOTA_Tooltip_ability_phantom_assassin_stifling_dagger_Note0"					"Can Target?\nBKB: Deals damage only.\nEthereal: Applies slow only\nLinkens: Blocked if primary target."
+		"DOTA_Tooltip_ability_phantom_assassin_stifling_dagger_Description"				"<font color=\"#F9FF9E\">TRUESTRIKE</font> - Throws a dagger that triggers an attack against an enemy and slows its movement speed.\nApplies on-hit effects (melee).<br><br>Grants <font color=\"#FFFFFF\">Flying Vision.</font>(450)<br>SIGHT DURATION: 3"
+		"DOTA_Tooltip_ability_phantom_assassin_stifling_dagger_Note0"					"Can Target?\nBKB: Deals damage only.\nEthereal: Applies slow only\nLinkens: Blocked if primary target.\nDisarm: Completely ignores disarm."
 
 		"DOTA_Tooltip_ability_phantom_assassin_phantom_strike_Description"				"<font color=\"#167C13\">MOBILITY</font> - Teleports to a unit. Grants temporary attack speed against an enemy target."
 		"DOTA_Tooltip_ability_phantom_assassin_phantom_strike_Note0"					"The attack speed bonus lasts either 4 seconds or for 4 successful attacks, whichever is shorter.\nMissed attacks do not count against the attack limit.\nThe attack speed bonus is lost instantly upon successfully attacking a different target."
@@ -183,7 +183,7 @@
 		"DOTA_Tooltip_ability_mirana_starfall_aghanim_description"						"Passively triggers Starstorm periodically. Does not trigger if the enemy cannot see Mirana."
 		
 		"DOTA_Tooltip_ability_mirana_arrow"												"Sacred Arrow"
-		"DOTA_Tooltip_ability_mirana_arrow_Description"									"Fires a long-range arrow that stuns and damages the first enemy unit it strikes. The damage and stun are increased the farther the arrow travels.<br><br>Instantly kills non-ancient creeps.<br><br>Grants <font color=\"#FFFFFF\">Flying Vision.</font>\nMAX DAMAGE: 190 / 280 / 370 / 460"
+		"DOTA_Tooltip_ability_mirana_arrow_Description"									"Fires a long-range arrow that stuns and damages the first enemy unit it strikes. The damage and stun are increased the farther the arrow travels.<br><br>Instantly kills non-ancient creeps.<br><br>Grants <font color=\"#FFFFFF\">Flying Vision.</font>(500)\nMAX DAMAGE: 190 / 280 / 370 / 460"
 		"DOTA_Tooltip_ability_mirana_arrow_Note0"										"Sacred Arrow ignores Terrain.\n\nCan Target?\nBKB: No.\nLinkens: Not Blocked\nInvisible: Yes."
 		"DOTA_Tooltip_ability_mirana_arrow_Note1"										"The arrow reaches its full potential at 1500 distance."
 		"DOTA_Tooltip_ability_mirana_arrow_arrow_range"									"RANGE:"
@@ -342,9 +342,9 @@
 		"DOTA_Tooltip_ability_zuus_arc_lightning_arc_damage"							"DAMAGE:"
 		
 		"DOTA_Tooltip_ability_zuus_lightning_bolt"										"Lightning Bolt"
-		"DOTA_Tooltip_ability_zuus_lightning_bolt_Description"							"<font color=\"#00FF00\">TRUESIGHT</font> - Strike an enemy unit or the ground, damaging and mini-stunning the unit.<br>When used on the ground, the spell will search for a nearby enemy hero.<br><br>Grants flying vision.<br><br>Sight Radius: %true_sight_radius%<br>Hero Search Radius: %spread_aoe%<br><br>Lightning Bolt is used by <font color=\"#0000E3\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_zuus_lightning_bolt_Description"							"<font color=\"#00FF00\">TRUESIGHT</font> - Strike an enemy unit or the ground, damaging and mini-stunning the unit.<br>When used on the ground, the spell will search for a nearby enemy hero.<br><br>Grants flying vision.<br>(750)<br>Sight Radius: %true_sight_radius%<br>Hero Search Radius: %spread_aoe%<br><br>Lightning Bolt is used by <font color=\"#0000E3\">Aghanim's Scepter</font>"
 		"DOTA_Tooltip_ability_zuus_lightning_bolt_cast_range_tooltip"					"CAST RANGE:"
-		"DOTA_Tooltip_ability_zuus_lightning_bolt_sight_radius_day"						"SIGHT RADIUS:"
+		"DOTA_Tooltip_ability_zuus_lightning_bolt_sight_radius_day"						"TRUESIGHT RADIUS:"
 		"DOTA_Tooltip_ability_zuus_lightning_bolt_sight_duration"						"SIGHT DURATION:"
 		"DOTA_Tooltip_ability_zuus_lightning_bolt_Note0"								"The mini-stun interrupts enemy animations and channeling spells.\nVision is always granted over the target."
 		
@@ -364,11 +364,13 @@
 		"DOTA_Tooltip_ability_zuus_cloud_Note1"											"Cooldown reduction affects the Lightning Bolt frequency."
 		
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath"									"Thundergod's Wrath"
-		"DOTA_Tooltip_ability_zuus_thundergods_wrath_Description"						"<font color=\"#00FF00\">TRUESIGHT</font> - Strikes all enemy heroes with a bolt of lightning, no matter where they may be.<br><br>Does not hit invisible heroes.<br><br>Grants flying vision."
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_Description"						"<font color=\"#00FF00\">TRUESIGHT</font> - Strikes all enemy heroes at once with a bolt of lightning, globally.<br><br>Does not hit invisible heroes.<br><br>Grants <font color=\"#FFFFFF\">Flying Vision</font>(500)."
 		DOTA_Tooltip_ability_zuus_thundergods_wrath_Note0"								"Vision is always granted over the target."
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_damage"							"DAMAGE:"
-		"DOTA_Tooltip_ability_zuus_thundergods_wrath_true_sight_radius_tooltip"			"TRUE SIGHT RADIUS:"
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_true_sight_radius"					"TRUE SIGHT RADIUS:"
+		"DOTA_Tooltip_ability_zuus_thundergods_wrath_true_sight_radius_tooltip"			"SIGHT RADIUS:"
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_sight_duration"					"DURATION:"
+		
 		"DOTA_Tooltip_ability_zuus_thundergods_wrath_aghanim_description"				"Grants a new ability, creating a cloud that casts Lightning Bolt on nearby enemies."
 
 		
@@ -382,7 +384,7 @@
 		"DOTA_Tooltip_ability_vengefulspirit_magic_missile_magic_missile_damage"		"DAMAGE:"
 		
 		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror"							"Wave of Terror"
-		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror_Description"				"A scream that damages and reduces armor of enemies it passes through.<br><br>Grants <font color=\"#FFFFFF\">Flying Vision.</font>"
+		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror_Description"				"A scream that damages and reduces armor of enemies it passes through.<br><br>Grants <font color=\"#FFFFFF\">Flying Vision</font>(300)."
 		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror_armor_reduction"			"ARMOR REDUCTION:"
 		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror_tooltip_duration"			"DEBUFF DURATION:"
 		"DOTA_Tooltip_ability_vengefulspirit_wave_of_terror_vision_duration"			"VISION DURATION:"
@@ -448,7 +450,7 @@
 	
 	
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova"								"Crystal Nova"
-		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_Description"					"Damages enemies in an area and reduces their attack and movement speeds."
+		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_Description"					"Damages and slows enemies in target area.\nGrants <font color=\"#FFFFFF\">Ground Vision </font>(900)"
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_duration"						"DURATION:"
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_movespeed_slow"				"%MOVEMENT SLOW:"
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_attackspeed_slow"				"ATTACK SLOW:"
@@ -456,8 +458,8 @@
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_nova_damage"					"DAMAGE:"
 		
 		"DOTA_Tooltip_ability_crystal_maiden_frostbite"									"Frostbite"
-		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Description"						"Roots, disarms, mini-stuns, and damages an enemy unit.<br><br>Has extra duration on non-ancient creeps (check this)"
-		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Note0"							"Roots prevent the use of <font color=\"#167C13\">mobility</font> spells."		
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Description"						"Roots, disarms, mini-stuns, and damages an enemy unit for a duration.<br><br>Has extra duration on non-ancient creeps (check this)"
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Note0"							"Roots prevent the use of MOBILITTY spells."		
 		"DOTA_Tooltip_ability_crystal_maiden_frostbite_damage_per_second_tooltip"						"DAMAGE PER HALF-SECOND:"
 		"DOTA_Tooltip_ability_crystal_maiden_frostbite_duration"						"HERO DURATION:"
 		"DOTA_Tooltip_ability_crystal_maiden_frostbite_hero_damage_tooltip"				"HERO TOTAL DAMAGE:"		
@@ -465,16 +467,16 @@
 		"DOTA_Tooltip_ability_crystal_maiden_frostbite_creep_damage_tooltip"			"CREEP TOTAL DAMAGE:"
 		
 		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura"							"Arcane Aura"
-		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Description"				"Grants mana regeneration to all allies globally with extra to self."
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Description"				"Grants mana regeneration to self and all allies globally."
 		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Note0"						""
 		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Note1"						""
 		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_mana_regen"				"ALLY MANA REGEN:"
 		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_mana_regen_self"			"SELF MANA REGEN:"
 		
 		"DOTA_Tooltip_ability_crystal_maiden_freezing_field"							"Freezing Field"
-		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Description"				"<font color=\"#257DAE\">CHANNELED</font> - Slows enemy attack and movement speeds and causes damaging explosions in a large area around the user.<br><br>Deals approximately <font color=\"#FFFFFF\">200/330/480/[595]</font> damage per second.<br><br>Lasts %duration_tooltip% seconds.<br><br>UPGRADEABLE: <font color=\"#0000FF\">Aghanim's Scepter</font>"
-		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Note0"						"The slow is applied on all enemies in the radius independent of the explosions."
-		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Note1"						"Explosions occur 10 times per second and move counter-clockwise.\nThe average damage is roughly constant up to a radius of 485.\nThe spell is centered on the user even if the user is moved or displaced."
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Description"				"<font color=\"#257DAE\">CHANNELED</font> - Slows enemy attack and movement speeds and causes damaging explosions in a large area around the user.<br><br>Deals approximately <font color=\"#FFFFFF\">200/330/480/(595)</font> damage per second.<br><br>Lasts %duration_tooltip% seconds.<br><br>UPGRADEABLE: <font color=\"#0000FF\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Note0"						"Explosions occur 10 times per second and move counter-clockwise.\nThe average damage is roughly constant up to a radius of 485.\nThe spell is centered on the user even if the user is moved or displaced."
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Note1"						"\n\nThe slow is applied on all enemies in the radius independent of the explosions.\nThe spell is centered on the user even if the user is moved or displaced."
 		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_movespeed_slow"				"%MOVEMENT SLOW:"
 		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_attack_slow"				"ATTACK SLOW:"
 		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_radius"						"RADIUS:"

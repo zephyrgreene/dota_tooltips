@@ -22,6 +22,8 @@ TRUESTRIKE is a new keyword colored pale-yellow #F9FF9E to draw attention to the
 
 TRUESIGHT is a new keyword colored "Gem" green #00FF00 to draw attention to the spell's strength over invisibility.
 
+Ground/Flying Vision is a keyword colored White #FFFFFF to draw attention to the spell's strength over fog of war from trees and highground.
+
 <h3>Consistencies with word usage</h3>
 
 With the given amount of information in any hero's kit, text, and item choices, there should be a focus in consistent word usage. 
