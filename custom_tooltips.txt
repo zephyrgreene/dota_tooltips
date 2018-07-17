@@ -404,9 +404,9 @@
 		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_tooltip_range"					"RANGE:"
 		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_nether_swap_cooldown_scepter"	"SCEPTER COOLDOWN:"
 		
-		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_aghanim_description"			"Decreases Nether Swap's cooldown and allows it to target regular units.\nSpawns an special illusion upon death that can use hero abilities. The illusion lasts until the owner revives."
-		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_illusion_damage_out_pct_scepter" "%SCEPTER ILLUSION DAMAGE DEALT:"
-		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_illusion_damage_in_pct_scepter" "%SCEPTER ILLUSION DAMAGE TAKEN:"
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_aghanim_description"				"Decreases Nether Swap's cooldown and allows it to target regular units.\nSpawns a special illusion upon death that can use hero abilities. The illusion lasts until the owner revives."
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_illusion_damage_out_pct_scepter" 	"%SCEPTER ILLUSION DAMAGE DEALT:"
+		"DOTA_Tooltip_ability_vengefulspirit_nether_swap_illusion_damage_in_pct_scepter" 	"%SCEPTER ILLUSION DAMAGE TAKEN:"
 		
 		
 	// TERRORBLADE
@@ -422,35 +422,33 @@
 		"DOTA_Tooltip_ability_terrorblade_reflection_Note1"									"Images only attack their source."
 		
 		"DOTA_Tooltip_ability_terrorblade_conjure_image"									"Conjure Image"
-		"DOTA_Tooltip_ability_terrorblade_conjure_image_Description"						"Creates an illusion of Terrorblade that deals damage."
-		"DOTA_Tooltip_ability_terrorblade_conjure_image_Lore"								"There's only one thing more dangerous than facing Terrorblade.  Facing MORE Terrrorblades!"
+		"DOTA_Tooltip_ability_terrorblade_conjure_image_Description"						"Creates a controllable illusion of the user."
 		"DOTA_Tooltip_ability_terrorblade_conjure_image_illusion_duration"					"ILLUSION DURATION:"
 		"DOTA_Tooltip_ability_terrorblade_conjure_image_illusion_outgoing_tooltip"			"%ILLUSION DAMAGE:"
 		"DOTA_Tooltip_ability_terrorblade_conjure_image_illusion_incoming_damage_total_tooltip"			"%ILLUSION DAMAGE TAKEN:"
 		
 		"DOTA_Tooltip_ability_terrorblade_metamorphosis"									"Metamorphosis"
-		"DOTA_Tooltip_ability_terrorblade_metamorphosis_Description"						"Terrorblade transforms into a powerful demon with a ranged attack. Any of Terrorblade's illusions that are within %metamorph_aura_tooltip% range will also be transformed by Metamorphosis."
-		"DOTA_Tooltip_ability_terrorblade_metamorphosis_Lore"								"Temper, temper. The rage rises up and takes control.  Meet Terrorblade's own worst self."
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_Description"						"Transforms the user into a demon with a powerful ranged attack and reduced movement speed.\nAny nearby illusions will also be transformed."
 		"DOTA_Tooltip_ability_terrorblade_metamorphosis_duration"							"DURATION:"
 		"DOTA_Tooltip_ability_terrorblade_metamorphosis_transformation_time"				"TRANSFORMATION TIME:"
 		"DOTA_Tooltip_ability_terrorblade_metamorphosis_base_attack_time"					"BASE ATTACK TIME:"
 		"DOTA_Tooltip_ability_terrorblade_metamorphosis_tooltip_attack_range"				"ATTACK RANGE:"
 		"DOTA_Tooltip_ability_terrorblade_metamorphosis_bonus_damage"						"BONUS DAMAGE:"
 		"DOTA_Tooltip_ability_terrorblade_metamorphosis_speed_loss"							"MOVEMENT SPEED LOSS:"
-		"DOTA_Tooltip_ability_terrorblade_metamorphosis_metamorph_aura_tooltip"		"ILLUSION AURA RADIUS:"
-		"DOTA_Tooltip_ability_terrorblade_metamorphosis_Note0"							"Manta Style's cooldown time will be based on whether Terrorblade was in his ranged or melee form when the item was used."
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_metamorph_aura_tooltip"				"ILLUSION AURA RADIUS:"
+		"DOTA_Tooltip_ability_terrorblade_metamorphosis_Note0"								"Manta Style's cooldown will be based on whether user was in ranged or melee form when activated.<br><br>Transformation is fully cancelled on death."
+		
 		"DOTA_Tooltip_ability_terrorblade_sunder"											"Sunder"
-		"DOTA_Tooltip_ability_terrorblade_sunder_Description"								"Severs the life from both Terrorblade and a target hero, exchanging a percentage of both units' current health. Some health points must remain."
-		"DOTA_Tooltip_ability_terrorblade_sunder_Lore"										"You didn't need that life, did you?  The demon marauder steals that which you hold most dear."
-		"DOTA_Tooltip_ability_terrorblade_sunder_hit_point_minimum_pct"						"%MINIMUM HP SWAP:"
+		"DOTA_Tooltip_ability_terrorblade_sunder_Description"								"Exchanges current life percent with another hero or illusion./nNeither unit will result with less than a minimum value of health."
+		"DOTA_Tooltip_ability_terrorblade_sunder_Note0"										"This spell uses HP manipulation which ignores on-damage effects from triggering.<br>Examples: Ice Blast, Blademail, or Borrowed Time."
+		"DOTA_Tooltip_ability_terrorblade_sunder_hit_point_minimum_pct"						"%MINIMUM HP THRESHOLD:"
 		
 		
 	//CRYSTAL MAIDEN
 	
 	
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova"								"Crystal Nova"
-		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_Description"					"A burst of damaging frost slows enemy movement and attack rate in the targeted area."
-		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_Lore"							"The air temperature around Rylai drops rapidly, chilling all around her to the core."
+		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_Description"					"Damages enemies in an area and reduces their attack and movement speeds."
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_duration"						"DURATION:"
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_movespeed_slow"				"%MOVEMENT SLOW:"
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_attackspeed_slow"				"ATTACK SLOW:"
@@ -458,31 +456,80 @@
 		"DOTA_Tooltip_ability_crystal_maiden_crystal_nova_nova_damage"					"DAMAGE:"
 		
 		"DOTA_Tooltip_ability_crystal_maiden_frostbite"									"Frostbite"
-		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Description"						"Encases an enemy unit in ice, prohibiting movement and attack, while dealing %damage_per_second_tooltip% damage every half-second. Lasts 10 seconds on creeps level 6 or lower."
-		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Lore"							"Rylai channels winds from the Blueheart Glacier, imprisoning attackers in thick blocks of ice."
-		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Note0"							"Blink abilities cannot be used while under the affects of Frostbite."		
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Description"						"Roots, disarms, mini-stuns, and damages an enemy unit.<br><br>Has extra duration on non-ancient creeps (check this)"
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_Note0"							"Roots prevent the use of <font color=\"#167C13\">mobility</font> spells."		
 		"DOTA_Tooltip_ability_crystal_maiden_frostbite_damage_per_second_tooltip"						"DAMAGE PER HALF-SECOND:"
 		"DOTA_Tooltip_ability_crystal_maiden_frostbite_duration"						"HERO DURATION:"
-		"DOTA_Tooltip_ability_crystal_maiden_frostbite_hero_damage_tooltip"						"HERO TOTAL DAMAGE:"		
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_hero_damage_tooltip"				"HERO TOTAL DAMAGE:"		
 		"DOTA_Tooltip_ability_crystal_maiden_frostbite_creep_duration"					"CREEP DURATION:"	
-		"DOTA_Tooltip_ability_crystal_maiden_frostbite_creep_damage_tooltip"		"CREEP TOTAL DAMAGE:"
+		"DOTA_Tooltip_ability_crystal_maiden_frostbite_creep_damage_tooltip"			"CREEP TOTAL DAMAGE:"
 		
 		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura"							"Arcane Aura"
-		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Description"				"Gives additional mana regeneration to all friendly units on the map. This bonus is increased for Crystal Maiden."
-		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Lore"						"Cold temperatures promote the essence of magic, causing Rylai's presence to allow spell usage in abundance."
-		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Note0"						"Stacks with other flat mana regeneration bonuses."
-		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Note1"						"The flat mana regeneration bonus is not considered for percentage mana regeneration increases."
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Description"				"Grants mana regeneration to all allies globally with extra to self."
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Note0"						""
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_Note1"						""
 		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_mana_regen"				"ALLY MANA REGEN:"
-		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_mana_regen_self"		"SELF MANA REGEN:"
+		"DOTA_Tooltip_ability_crystal_maiden_brilliance_aura_mana_regen_self"			"SELF MANA REGEN:"
 		
 		"DOTA_Tooltip_ability_crystal_maiden_freezing_field"							"Freezing Field"
-		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Description"				"CHANNELED - Surrounds Crystal Maiden with random icy explosions that slow enemies and deal massive damage.  Lasts %duration_tooltip% seconds.\n\nUpgradable by Aghanim's Scepter."
-		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Lore"						"Once the place of her exile, Icewrack has become an anchor for Rylai's frigid onslaught."
-		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Note0"						"The slow is applied on all enemies in the radius, even if they aren't hit by an explosion (lasts 1 second)."
-		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Note1"						"Every 0.1 second an explosion occurs, for a total of 100 explosions."
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Description"				"<font color=\"#257DAE\">CHANNELED</font> - Slows enemy attack and movement speeds and causes damaging explosions in a large area around the user.<br><br>Deals approximately <font color=\"#FFFFFF\">200/330/480/[595]</font> damage per second.<br><br>Lasts %duration_tooltip% seconds.<br><br>UPGRADEABLE: <font color=\"#0000FF\">Aghanim's Scepter</font>"
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Note0"						"The slow is applied on all enemies in the radius independent of the explosions."
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_Note1"						"Explosions occur 10 times per second and move counter-clockwise.\nThe average damage is roughly constant up to a radius of 485.\nThe spell is centered on the user even if the user is moved or displaced."
 		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_movespeed_slow"				"%MOVEMENT SLOW:"
 		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_attack_slow"				"ATTACK SLOW:"
 		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_radius"						"RADIUS:"
 		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_explosion_radius"			"EXPLOSION RADIUS:"
 		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_damage"						"DAMAGE:"
-		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_aghanim_description"		"Applies Frostbite to any unit that has been standing in the Freezing Field for over 2.5 seconds."
+		
+		"DOTA_Tooltip_ability_crystal_maiden_freezing_field_aghanim_description"		"Any enemy unit that is in Freezing Field's radius for <font color=\"#FFFFFF\">2.5</font> seconds will have Frostbite applied."
+		
+		
+	// MONKEY KING
+		
+		
+		"DOTA_Tooltip_ability_monkey_king_boundless_strike"							"Boundless Strike"
+		"DOTA_Tooltip_ability_monkey_king_boundless_strike_Description"				"Monkey King enlarges his staff and slams it against the ground, stunning enemies in a line and damaging them with a critical hit based on his attack. Has True Strike."
+		"DOTA_Tooltip_ability_monkey_king_boundless_strike_strike_cast_range"		"DISTANCE:"
+		"DOTA_Tooltip_ability_monkey_king_boundless_strike_stun_duration"			"STUN DURATION:"
+		"DOTA_Tooltip_ability_monkey_king_boundless_strike_strike_crit_mult"		"%CRITICAL DAMAGE:"
+		
+		"DOTA_Tooltip_ability_monkey_king_tree_dance"								"Tree Dance"
+		"DOTA_Tooltip_ability_monkey_king_tree_dance_Description"					"Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability-a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage from player controlled units or Roshan while on the ground puts Tree Dance on cooldown."
+		"DOTA_Tooltip_ability_monkey_king_tree_dance_Note0"							"Tree Dance cooldown starts upon landing."
+		"DOTA_Tooltip_ability_monkey_king_tree_dance_Note1"							"Right-click ground to drop from tree."
+		"DOTA_Tooltip_ability_monkey_king_tree_dance_perched_jump_distance"			"DISTANCE:"
+		"DOTA_Tooltip_ability_monkey_king_tree_dance_jump_damage_cooldown"			"DAMAGE COOLDOWN:"
+		"DOTA_Tooltip_ability_monkey_king_tree_dance_impact_damage_tooltip"			"PRIMAL SPRING DAMAGE:"
+		"DOTA_Tooltip_ability_monkey_king_tree_dance_impact_movement_slow_tooltip"	"%PRIMAL SPRING SLOW:"
+
+		"DOTA_Tooltip_ability_monkey_king_primal_spring"							"Primal Spring"
+		"DOTA_Tooltip_ability_monkey_king_primal_spring_Description"				"Monkey King springs out from his tree perch, damaging and slowing enemies in the area where he lands. Damage and slow amounts are in proportion to channel duration."
+		"DOTA_Tooltip_ability_monkey_king_primal_spring_impact_damage"				"DAMAGE:"
+		"DOTA_Tooltip_ability_monkey_king_primal_spring_impact_movement_slow"		"%MOVEMENT SLOW:"
+		"DOTA_Tooltip_ability_monkey_king_primal_spring_impact_slow_duration"		"SLOW DURATION:"
+		"DOTA_Tooltip_ability_monkey_king_primal_spring_max_distance"				"MAX DISTANCE:"
+		
+		"DOTA_Tooltip_Ability_monkey_king_primal_spring_early"						"Spring Early"
+
+		"DOTA_Tooltip_ability_monkey_king_jingu_mastery"							"Jingu Mastery"
+		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_Description"				"Monkey King's attacks awaken the Jingu Bang's power. Upon the fourth hit on the same enemy hero, Monkey King earns four charged attacks that have bonus damage and lifesteal."
+		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_Note0"						"Hitting an enemy with Boundless Strike adds to the hit counter."
+		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_required_hits"				"REQUIRED HITS:"
+		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_counter_duration"			"COUNTER DURATION:"
+		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_charges"					"CHARGES:"
+		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_bonus_damage"				"BONUS DAMAGE:"
+		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_lifesteal"					"%BONUS LIFESTEAL:"
+		
+		"DOTA_Tooltip_ability_monkey_king_mischief"									"Mischief"
+		"DOTA_Tooltip_ability_monkey_king_mischief_Description"						"Changes Monkey King's shape to deceive opponents, using the environment nearby as inspiration for the disguise. Taking damage, attacking, or using any item or ability breaks Monkey King's disguise."
+		"DOTA_Tooltip_ability_monkey_king_mischief_Lore"							"Watch out for that tree."
+		"DOTA_Tooltip_ability_monkey_king_mischief_movespeed"						"MOVE SPEED:"
+
+		"DOTA_Tooltip_ability_monkey_king_wukongs_command"							"Wukong's Command"
+		"DOTA_Tooltip_ability_monkey_king_wukongs_command_Description"				"Monkey King creates a circular formation of soldiers that spread out from his position. If Monkey King leaves the area his soldiers disperse. The soldiers have Monkey King's attack and only target heroes. Monkey King is granted bonus armor for the spell's duration."
+		"DOTA_Tooltip_ability_monkey_king_wukongs_command_Note0"					"Soldiers do not receive Jingu Mastery bonuses."
+		"DOTA_Tooltip_ability_monkey_king_wukongs_command_Note1"					"Soldiers do not copy Basher or Abyssal."
+		"DOTA_Tooltip_ability_monkey_king_wukongs_command_attack_speed"				"SOLDIER ATK SPEED:"
+		"DOTA_Tooltip_ability_monkey_king_wukongs_command_duration"					"DURATION:"
+		"DOTA_Tooltip_ability_monkey_king_wukongs_command_bonus_armor"				"BONUS ARMOR:"
+	
